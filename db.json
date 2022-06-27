@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "I love huhs",
+      "author": "hyunju"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

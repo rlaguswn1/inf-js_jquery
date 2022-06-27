@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>json-server-test</title>
+</head>
+<body>
+    <div id="root">hello</div>
+    <script>
+        // 읽기
+        // axios.get("http://localhost:3200/posts/1")
+        // .then((res) => {
+        //     console.log(res); 
+        //     console.log(res.data);
+        //     document.getElementById("root").innerHTML = res.data.id;
+        // });
+        
+        // 쓰기
+        // axios.post("http://localhost:3200/posts/", {
+        //     id: 2,
+        //     title: "I love huhs",
+        //     author: "hyunju"
+        // });
+
+        // 적은 내용 그대로 덮어쓰기
+        // axios.put("http://localhost:3200/posts/1", {
+        //     id: 1,
+        //     title: "I want to quit",
+        //     author: "hyunju kim"
+        // });
+
+        // 달라진 사항만 적용
+        // axios.patch("http://localhost:3200/posts/1", {
+        //     id: 1,
+        // title: "I love vacation"
+        //     author: "hyunju kim"
+        // });
+
+        // 삭제
+        // axios.delete("http://localhost:3200/posts/1");
+    </script>
+</body>
+</html>
