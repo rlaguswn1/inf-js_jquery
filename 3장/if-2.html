@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var check = window.prompt("숫자를 입력하세요");
+        alert(typeof(check));
+        //프롬프트에서 받은건 문자열 타입이라 int형으로 바꿔줘야함
+        check=parseInt(check);
+        alert(typeof(check));
+
+        if(check%2===0){
+            alert("짝수입니다.");
+        } else {
+            alert("홀수입니다");
+        }
+    </script>
+</body>
+</html>

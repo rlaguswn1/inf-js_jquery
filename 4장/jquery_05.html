@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/text.css" />
+    <script>
+        function hello(){
+            var rnd1 = Math.floor(Math.random() * 20); // 0~20
+            var rnd2 = Math.floor(Math.random() * 40);//0~40
+            var rnd3 = Math.floor(Math.random() * 3)+100; // 100~103
+
+            $(".hello").css({
+                "bottom":rnd1, "left":rnd2
+            });
+
+            //배경확대
+            $(".hello .text").css({
+                "background-size" : rnd3+"%"
+            });
+        }
+        //시간을 주고 얼마마다 호출하겠다. 이건 0.01초마다
+        setInterval(hello, 100);
+    </script>
+</head>
+<body>
+    <div class="hello">
+        <div class="text">안녕하세요</div>
+    </div>
+</body>
+</html>

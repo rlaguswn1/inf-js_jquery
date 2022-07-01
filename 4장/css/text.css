@@ -1,0 +1,21 @@
+.hello {
+  position: relative;
+  /* htnml에서 가져올때는 상위 폴더에 있는 상태에서 하는거라
+  걍 imgs~부터 써도 되지만, 지금은 css폴더 안에서 작업을 하는 중이기 때문에
+  폴더를 빠져나가서 다시 접근하는 경로가 필요하다 */
+  background-image: url("../imgs/jigu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+}
+
+.hello .text {
+  bottom: 0;
+  color: blue;
+  font-family: Verdana !important;
+  font-size: 40pt !important;
+  font-weight: bold;
+  position: absolute;
+  text-shadow: 0 0 5px #000;
+}
