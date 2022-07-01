@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var input = prompt("숫자를 입력해주세요", "숫자");
+        alert(typeof(input)); // 문자로 찍힘 >> prompt는 받은걸 string으로 저장
+
+        //형변환
+        var numType = Number(input);
+        alert(typeof(numType));
+    </script>
+</body>
+</html>
